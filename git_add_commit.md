@@ -3,9 +3,11 @@
 ## Add all and Commit with message
 
 ```bash
-git add -A && git cm "Commit all new, updated and deleted files"
+git ca "Commit all new, updated and deleted files"
 
+# The above is a shortcut for
 # Note "git commit -Am" is not valid
+git add -A && git commit -m "Commit all new, updated and deleted files"
 ```
 
 ## Add
@@ -17,6 +19,13 @@ git add -u # stages modified and deleted, without new
 git add *.html # add all files with a given extension, asterisk as a wildcard
 
 # Note "git add -a" is not valid, it must be "git add -A"
+```
+
+## Show
+
+```bash
+# To see the content of a particular commit
+git show 3e1508a # commit hash
 ```
 
 ## Misc
