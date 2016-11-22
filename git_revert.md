@@ -1,20 +1,28 @@
 # REVERT
 
-## You want to discard a local change to a file
+## Undo changes
 
 ```bash
+# You made changes to a file, you haven't staged or committed
 git co file_changed # revert that file
 git co . # revert all changed files
 ```
 
-## You want revert a local commit (a commit that you haven't pushed to remote)
+## Un-stage
 
 ```bash
-git reset HEAD~1
-# On windows use tilda, the number following it is the number of commits you want to reset
+git add dir/a.txt # to stage
+git reset HEAD dir/a.txt # to unstage
 ```
 
-## You pushed committed changes to origin and you want to revert back
+## Un-commit local commit (a commit that you haven't pushed to remote)
+
+```bash
+git ca "Commit some files" # to commit
+git reset HEAD~1 # On windows use tilda, un-commit the last number of commits
+```
+
+## Un-commit changes you pushed origin
 
 ```bash
 # You committed and pushed a "Regrettable commit"
