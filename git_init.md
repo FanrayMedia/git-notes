@@ -23,3 +23,8 @@ git remote show origin # http://stackoverflow.com/a/4089452/32240
 # https://help.github.com/articles/caching-your-github-password-in-git/
 git config --global credential.helper wincred
 ```
+
+## Change remote git url
+```bash
+git remote set-url origin new-git-url-here
+```
