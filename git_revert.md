@@ -32,3 +32,7 @@ git push origin master --force
 git reflog
 # git does not really delete anything, you can still see your regretable commit with reflog 
 ```
+## How do I “un-revert” a reverted Git commit?
+https://stackoverflow.com/a/8730046/32240
+
+If you haven't pushed that change yet, `git reset --hard HEAD^`
