@@ -33,3 +33,9 @@ $ git fetch
 $ git co dev # $ git co -t origin/dev
 ```
 
+## Refresh the local list of remote branches
+
+```bash
+# https://stackoverflow.com/a/36358502/32240
+git remote update origin --prune
+```
