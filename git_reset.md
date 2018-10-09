@@ -1,4 +1,4 @@
-# REVERT
+# RESET
 
 ## Undo changes
 
