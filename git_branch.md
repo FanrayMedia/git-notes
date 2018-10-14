@@ -39,3 +39,7 @@ $ git co dev # $ git co -t origin/dev
 # https://stackoverflow.com/a/36358502/32240
 git remote update origin --prune
 ```
+
+## Show remote info
+
+`git remote -v` can show you both your origin and upstream (if you forked from a repo) info
