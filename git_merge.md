@@ -1,5 +1,11 @@
 # Merge
 
+## When merge from featured branch to dev "Squash and merge" should be used
+
+https://help.github.com/articles/about-pull-request-merges/#squash-and-merge-your-pull-request-commits
+
+This will make your dev and master tidy.
+
 ## Merge by Pull
 
 ```bash
