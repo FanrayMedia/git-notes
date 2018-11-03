@@ -5,6 +5,7 @@
 ```bash
 # Create a local branch "dev" and check it out in one shot
 # Alternatively you can do "git br dev", "git co dev"
+# The current branch you are on will be the branch "dev" branches off from
 $ git co -b dev
 $ git push -u origin dev
 ```
